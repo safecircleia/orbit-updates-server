@@ -1,5 +1,5 @@
 <img src="./favicon.svg" height="200" align="left"/>
 
-### `Zen Browser Update Server`
+### `Orbit Browser Update Server`
 
-Resource server used for automatic updates system in Zen
+Resource server used for automatic updates system in Orb
