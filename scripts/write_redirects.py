@@ -4,11 +4,9 @@ import os
 # but still maintain the old URLs just in case someone has not updated
 # broken branch -> fixed branch
 REDIRECTS = {
-    "twilightundefined": "twilight", # A bug there was with previous twilight updates
     "alpha": "release", # Alpha -> Beta
     "alpha-generic": "release", # Alpha -> Beta
     "beta-generic": "release", # Beta (Generic) -> Beta
-    "twilight-generic": "twilight", # Twilight (Generic) -> Twilight
     "beta": "release", # Beta -> Release
     "release-generic": "release", # Generic release -> release
 }
