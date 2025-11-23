@@ -1,6 +1,0 @@
-<?xml version="1.0"?>
-<updates>
-  <update type="minor" displayVersion="0.1b" appVersion="0.1b" platformVersion="145.0" buildID="20251122060733">
-    <patch type="complete" URL="https://github.com/safecircleia/orbit/releases/download/0.1b/windows-arm64.mar" hashFunction="sha512" hashValue="ee2cb72d86b2d3bbd36d4c2ac06108f53e3345cc1a510e42de3fd4cc3d6eec95c19a784eaefcf51cdb75e1942e2fb430e4a54f790437a86e510d5fd41c99ba85" size="83693992"/>
-  </update>
-</updates>
