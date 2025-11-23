@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<updates>
+  <update type="minor" displayVersion="0.1b" appVersion="0.1b" platformVersion="145" buildID="20251123011805">
+    <patch type="complete" URL="https://github.com/safecircleia/orbit/releases/download/beta/macos.mar" hashFunction="sha512" hashValue="bacf7cf6a4d8ff72cfb83d3ec7a020818fd0720618403ddfcbcde76cf58dbf18a94ef086eae4601998af2af301a88af14b5c464b33c211a791a861489771f1ed" size="128919003"/>
+  </update>
+</updates>

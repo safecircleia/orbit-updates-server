@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<updates>
+  <update type="minor" displayVersion="0.1b" appVersion="0.1b" platformVersion="145" buildID="20251123011805">
+    <patch type="complete" URL="https://github.com/safecircleia/orbit/releases/download/beta/windows.mar" hashFunction="sha512" hashValue="16711a0ba91dd18de21e25414693255147cced894efc7823abf8ef62d8b74c8b6b7483d2abb078c23d6aabb71c1a5fb69f79ef84ddc6344c76d3844009aa8b49" size="92169770"/>
+  </update>
+</updates>
