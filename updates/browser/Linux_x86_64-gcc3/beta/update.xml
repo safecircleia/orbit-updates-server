@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<updates>
+  <update type="minor" displayVersion="0.1b" appVersion="0.1b" platformVersion="153.0.1" buildID="20260808010529">
+    <patch type="complete" URL="https://github.com/safecircleia/orbit/releases/download/0.1b/linux.mar" hashFunction="sha512" hashValue="f569ec87960e3fdf5c33fde8165b0f12b6b75b851ff22f64e7014d7c8f42aaf0730caef31b01eb5b0d98e962d3e1325b5093e531a76c68cd83f22e3059bb1b3a" size="95132505"/>
+  </update>
+</updates>
