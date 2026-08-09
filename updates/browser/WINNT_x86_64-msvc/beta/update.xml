@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <updates>
-  <update type="minor" displayVersion="0.1b" appVersion="0.1b" platformVersion="153.0.1" buildID="20260808010529">
-    <patch type="complete" URL="https://github.com/safecircleia/orbit/releases/download/0.1b/windows.mar" hashFunction="sha512" hashValue="d901be0c0a8ec8a3fc7d7bc0459ed706174cce079eb386e557ed1b92d3198c6c5ce76a20f119aaad8f84ccaa270022f0a5890dae2aeb41844ba8611f2508be4c" size="104764228"/>
+  <update type="minor" displayVersion="1.17.8b" appVersion="1.17.8b" platformVersion="145.0.1" buildID="20251119061732">
+    <patch type="complete" URL="https://github.com/zen-browser/desktop/releases/download/1.17.8b/windows.mar" hashFunction="sha512" hashValue="77418448de95e29afaf9cd0e1c07cb4f66e774beee3c3d29c31ba160a8e48ec04401c55cac605226b0418a32a2a28e3cad1d154613412f8de8e4cbd70975f10a" size="99663466"/>
   </update>
 </updates>
