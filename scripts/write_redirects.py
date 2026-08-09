@@ -4,11 +4,11 @@ import os
 # but still maintain the old URLs just in case someone has not updated
 # broken branch -> fixed branch
 REDIRECTS = {
-    "alpha": "release", # Alpha -> Beta
-    "alpha-generic": "release", # Alpha -> Beta
-    "beta-generic": "release", # Beta (Generic) -> Beta
-    "beta": "release", # Beta -> Release
-    "release-generic": "release", # Generic release -> release
+    "alpha": "release",  # Alpha -> Beta
+    "alpha-generic": "release",  # Alpha -> Beta
+    "beta-generic": "release",  # Beta (Generic) -> Beta
+    "beta": "release",  # Beta -> Release
+    "release-generic": "release",  # Generic release -> release
 }
 
 UPDATES_ROOT = "updates/browser"
@@ -25,7 +25,7 @@ for new, old in REDIRECTS.items():
                 # The directory doesnt exist, so we create a new one
                 new_branch_path = os.path.join(target_path, new)
                 old_branch_path = os.path.join(target_path, old)
-                os.makedirs(new_branch_path)
+                os.makedirs(new_branch_path, exist_ok=True)
                 for update in os.listdir(old_branch_path):
                     update_path = os.path.join(old_branch_path, update)
                     with open(update_path, "r") as f:
@@ -36,4 +36,3 @@ for new, old in REDIRECTS.items():
                 print(f"Redirected {old} -> {new} in {target}/{branch}")
 
 print("Done! Let's build the site next!")
-
